@@ -31,6 +31,7 @@ The dataset includes the following files:
 
 - ‘run_analysis.R’: process the dataset, and creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+- ‘submissionDataSet.txt’: the tidy data after processing.
 Notes: 
 ======
 - The mean value and standard deviation of every feature are calculate, Features are normalized and bounded within [-1,1].
