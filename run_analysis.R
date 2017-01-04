@@ -1,7 +1,10 @@
 ## Downloads and reads datasets into the worksplace.
+if(!file.exists("./data")){dir.create("./data")}
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl, destfile = "~/Documents/R_program/UCI HAR Dataset.zip")
-dataDownloaded <- date()
+dataDownloaded <- date() # records download time
+
+unzip(zipfile="~/Documents/R_program/UCI HAR Dataset.zip",exdir="~/Documents/R_program/UCI HAR Dataset")
 setwd("~/Documents/R_program/UCI HAR Dataset")
 activity_labels <- read.table("activity_labels.txt")
 features <- read.table("features.txt")
