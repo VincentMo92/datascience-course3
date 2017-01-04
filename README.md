@@ -5,9 +5,9 @@ Version 1.0
 ==================================================================
 Vincent Mo
 HCI lab of Chongqing University
-==================================================================
 
 This is the course project for the Getting and Cleaning Data Coursera course. The R script, run_analysis.R, does the following:
+==================================================================
 
 Download the dataset if it does not already exist in the working directory
 Load the activity and feature info
